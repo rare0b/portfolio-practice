@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">My Portfolio</a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-visual">
+      <div>
+        <h1>My Portfolio</h1>
+        <p>web engineer</p>
+      </div>
+    </div>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div id="about-name">
+          <h3>れあ</h3>
+          <p>rare0b</p>
+        </div>
+        <div id="about-detail">
+          <p>
+            放送大学 教養学部 教養学科 情報コース 3年生<br />
+            大学1年生のC言語の授業からプログラミングを始めた。<br />
+            1年生の夏休みから競プロに参加し、AtCoder緑まで達成。<br />
+            また、約1年半、正社員のデータベース管理者としてフルタイムで経験を積んだ。
+          </p>
+          <img src="./img/hacker.png" />
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+          <div class="skill-item">
+            <h3>SQL</h3>
+          </div>
+          <div class="skill-item">
+            <h3>C++</h3>
+          </div>
+          <div class="skill-item">
+            <h3>Python</h3>
+          </div>
+          <div class="skill-item">
+            <h3>Go</h3>
+          </div>
+          <div class="skill-item">
+            <h3>HTML/CSS</h3>
+          </div>
+          <div class="skill-item">
+            <h3>Javascript</h3>
+          </div>
+        </div>
+      </section>
+      <section id="works">
+        <h2>Works</h2>
+        <div class="work-item">
+          <img src="../img/work-tetris.png" />
+          <div class="work-description">
+            <h3>テトリス</h3>
+            <p>
+              チーム開発で作成。主にJavascriptの実装を担当。<br />
+              <a
+                href="https://teamdev-c.github.io/work-space"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Play</a
+              ><br />
+              <a
+                href="https://github.com/teamdev-c/work-space"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              ><br />
+            </p>
+          </div>
+        </div>
+        <div class="work-item">
+          <img src="../img/work-gin-todo-api.png" />
+          <div class="work-description">
+            <h3>TodoAPI(Go/Gin/GORM)</h3>
+            <p>
+              初めて作成したAPI。<br />
+              ローカルのデータベースと接続し、基本的なCRUDを実装。<br />
+              <a
+                href="https://github.com/rare0b/gin-todo-api"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              ><br />
+            </p>
+          </div>
+        </div>
+        <div class="work-item">
+          <img src="../img/work-portfolio.png" />
+          <div class="work-description">
+            <h3>ポートフォリオサイト</h3>
+            <p>
+              現在表示しているサイト。Tech
+              Selectという学習サービスを参考に作成。
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfleBm5ZZRnKI66YYiEOYEmMAkWo0qAuKYFPC3BiTRPk7JWYA/viewform?embedded=true"
+          width="640"
+          height="800"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          >読み込んでいます…</iframe
+        >
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 rare0b</p>
+    </footer>
+  </body>
+</html>
